@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.infoTourism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/infoapartement"
+        android:label="Info Tourism"
+        android:roundIcon="@drawable/infoapartement"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Maps.MainMapActivity"
+            android:label="@string/title_activity_main_map"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ViewPager.WelcomeActivity" />
+        <activity android:name=".About" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".PlaceDetail" />
+        <activity
+            android:name=".MenuUtama"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="Register"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".SignIn"
+            android:label="Login"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

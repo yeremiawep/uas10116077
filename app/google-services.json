@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493426065516",
+    "firebase_url": "https://fadhelipad.firebaseio.com",
+    "project_id": "fadhelipad",
+    "storage_bucket": "fadhelipad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493426065516:android:49deb9e9abb79b49",
+        "android_client_info": {
+          "package_name": "com.example.infokavling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493426065516-284gs9ok987ob5nq8qnqlkkqhnslsq66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.infokavling",
+            "certificate_hash": "cda04549e4fbaaf992f5cecdcfe3aab9d4b05163"
+          }
+        },
+        {
+          "client_id": "493426065516-g4qmadtfcf314lfrjpcnk0uor7dqikp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_4Xe11z_KKs_45e1nbDa_kmt5zfaoHQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493426065516-g4qmadtfcf314lfrjpcnk0uor7dqikp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
